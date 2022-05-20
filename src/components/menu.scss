@@ -1,0 +1,47 @@
+// -------------------------------- MENU --------------------------------
+.menu-container {
+  text-align: center;
+  width: 50rem;
+  min-width: 25rem;
+  background-color: rgba(0, 0, 0, 0.66);
+  font-size: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin-block: 1rem;
+  .card {
+    background-color: rgba(0, 0, 0, 0.44);
+    width: 45%;
+    min-width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .pizza {
+      width: 40%;
+      img {
+        width: 100%;
+      }
+    }
+    .pizza-title {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+  .card:hover {
+    background-color: #dcdcdc47;
+    cursor: pointer;
+  }
+}
+@media (max-width: 636px) {
+  .menu-container {
+    width: 100%;
+    .card {
+      width: 100%;
+    }
+  }
+}

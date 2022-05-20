@@ -14,6 +14,10 @@ Advancing in DOM manipulation by dynamically rendering simple restaurant homepag
 ![image](https://user-images.githubusercontent.com/46375087/169518333-065ed26f-72de-497d-a496-b12c02430774.png)
 
 
+## Credits 
+
+UI Design: Michalosman 
+
 ## Check it out 
 
 https://restaurant-pag3.netlify.app/
